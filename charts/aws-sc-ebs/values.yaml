@@ -1,0 +1,5 @@
+az: eu-west-3a
+iops: 3000
+type: gp3
+fstype: ext4
+encrypted: false
