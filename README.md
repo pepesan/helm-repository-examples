@@ -1,6 +1,6 @@
 # Repositorio de Ejemplos de Charts de Helm
 
-Binevenid@ Este es el repositorio de ejemplos de charts de Helm de Pepesan
+Bienvenid@ Este es el repositorio de ejemplos de charts de Helm de Pepesan
 
 ## Empezando
 
