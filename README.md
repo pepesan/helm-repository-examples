@@ -1,17 +1,23 @@
-# Helm Example Repository
+# Repositorio de Ejemplos de Charts de Helm
 
-Ahoy world!  I'm a Helm repository for example charts.
+Binevenid@ Este es el repositorio de ejemplos de charts de Helm de Pepesan
 
-## Get started
+## Empezando
 
-Add this repository to Helm.
-
-```
-helm repo add examples https://helm.github.io/examples
-```
-
-Install an example.
+Añade este repositorio de Helm
 
 ```
-helm install ahoy examples/hello-world
+helm repo add examples https://pepesan.github.io/helm-repository-examples
+```
+
+Instala el ejemplo de aws-sc-ebs (requiere el csi driver de aws ebs)
+
+```
+helm install aws-sc-ebs helm-repository-examples/aws-sc-ebs
+```
+
+Instala un ejemplo de nginx con pvc.
+
+```
+helm install nginx-pvc helm-repository-examples/nginx-pvc
 ```
